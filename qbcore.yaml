@@ -8,7 +8,7 @@ description: An advanced FiveM RP framework including jobs, gangs, housing & mor
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://github.com/MilkshakeLabs-QBCore/txAdminRecipe
+    src: https://github.com/MilkshakeCollective/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
 
@@ -50,12 +50,12 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/bob74_ipl
     ref: master
-    src: https://github.com/MilkshakeLabs-QBCore/bob74_ipl
+    src: https://github.com/MilkshakeCollective/bob74_ipl
 
   - action: download_github
     dest: ./resources/[standalone]/safecracker
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/safecracker
+    src: https://github.com/MilkshakeCollective/safecracker
 
   - action: download_github
     dest: ./resources/[standalone]/screenshot-basic
@@ -65,22 +65,22 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/progressbar
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/progressbar
+    src: https://github.com/MilkshakeCollective/progressbar
 
   - action: download_github
     dest: ./resources/[standalone]/interact-sound
     ref: master
-    src: https://github.com/MilkshakeLabs-QBCore/interact-sound
+    src: https://github.com/MilkshakeCollective/interact-sound
 
   - action: download_github
     dest: ./resources/[standalone]/connectqueue
     ref: master
-    src: https://github.com/MilkshakeLabs-QBCore/connectqueue
+    src: https://github.com/MilkshakeCollective/connectqueue
 
   - action: download_github
     dest: ./resources/[standalone]/PolyZone
     ref: master
-    src: https://github.com/MilkshakeLabs-QBCore/PolyZone
+    src: https://github.com/MilkshakeCollective/PolyZone
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -94,23 +94,23 @@ tasks:
   - action: download_github
     dest: ./resources/[voice]/qb-radio
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-radio
+    src: https://github.com/MilkshakeCollective/qb-radio
 
     # MAPS
   - action: download_github
     dest: ./resources/[defaultmaps]/hospital_map
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/hospital_map
+    src: https://github.com/MilkshakeCollective/hospital_map
 
   - action: download_github
     dest: ./resources/[defaultmaps]/dealer_map
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/dealer_map
+    src: https://github.com/MilkshakeCollective/dealer_map
 
   - action: download_github
     dest: ./resources/[defaultmaps]/[prison_map]
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/prison_map
+    src: https://github.com/MilkshakeCollective/prison_map
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -119,42 +119,42 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-core
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-core
+    src: https://github.com/MilkshakeCollective/qb-core
 
   - action: download_github
     dest: ./resources/[qb]/qb-scoreboard
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-scoreboard
+    src: https://github.com/MilkshakeCollective/qb-scoreboard
 
   - action: download_github
     dest: ./resources/[qb]/qb-adminmenu
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-adminmenu
+    src: https://github.com/MilkshakeCollective/qb-adminmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-multicharacter
+    src: https://github.com/MilkshakeCollective/qb-multicharacter
 
   - action: download_github
     dest: ./resources/[qb]/qb-target
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-target
+    src: https://github.com/MilkshakeCollective/qb-target
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-vehiclesales
+    src: https://github.com/MilkshakeCollective/qb-vehiclesales
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehicleshop
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-vehicleshop
+    src: https://github.com/MilkshakeCollective/qb-vehicleshop
 
   - action: download_github
     dest: ./resources/[qb]/qb-houserobbery
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-houserobbery
+    src: https://github.com/MilkshakeCollective/qb-houserobbery
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -162,47 +162,47 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-prison
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-prison
+    src: https://github.com/MilkshakeCollective/qb-prison
 
   - action: download_github
     dest: ./resources/[qb]/qb-hud
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-hud
+    src: https://github.com/MilkshakeCollective/qb-hud
 
   - action: download_github
     dest: ./resources/[qb]/qb-management
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-management
+    src: https://github.com/MilkshakeCollective/qb-management
 
   - action: download_github
     dest: ./resources/[qb]/qb-weed
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-weed
+    src: https://github.com/MilkshakeCollective/qb-weed
 
   - action: download_github
     dest: ./resources/[qb]/qb-lapraces
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-lapraces
+    src: https://github.com/MilkshakeCollective/qb-lapraces
 
   - action: download_github
     dest: ./resources/[qb]/qb-inventory
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-inventory
+    src: https://github.com/MilkshakeCollective/qb-inventory
 
   - action: download_github
     dest: ./resources/[qb]/qb-houses
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-houses
+    src: https://github.com/MilkshakeCollective/qb-houses
 
   - action: download_github
     dest: ./resources/[qb]/qb-garages
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-garages
+    src: https://github.com/MilkshakeCollective/qb-garages
 
   - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-ambulancejob
+    src: https://github.com/MilkshakeCollective/qb-ambulancejob
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -210,47 +210,47 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-radialmenu
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-radialmenu
+    src: https://github.com/MilkshakeCollective/qb-radialmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-crypto
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-crypto
+    src: https://github.com/MilkshakeCollective/qb-crypto
 
   - action: download_github
     dest: ./resources/[qb]/qb-weathersync
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-weathersync
+    src: https://github.com/MilkshakeCollective/qb-weathersync
 
   - action: download_github
     dest: ./resources/[qb]/qb-policejob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-policejob
+    src: https://github.com/MilkshakeCollective/qb-policejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-apartments
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-apartments
+    src: https://github.com/MilkshakeCollective/qb-apartments
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-vehiclekeys
+    src: https://github.com/MilkshakeCollective/qb-vehiclekeys
 
   - action: download_github
     dest: ./resources/[qb]/qb-mechanicjob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-mechanicjob
+    src: https://github.com/MilkshakeCollective/qb-mechanicjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-phone
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-phone
+    src: https://github.com/MilkshakeCollective/qb-phone
 
   - action: download_github
     dest: ./resources/[qb]/qb-vineyard
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-vineyard
+    src: https://github.com/MilkshakeCollective/qb-vineyard
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -258,47 +258,47 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-weapons
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-weapons
+    src: https://github.com/MilkshakeCollective/qb-weapons
 
   - action: download_github
     dest: ./resources/[qb]/qb-scrapyard
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-scrapyard
+    src: https://github.com/MilkshakeCollective/qb-scrapyard
 
   - action: download_github
     dest: ./resources/[qb]/qb-towjob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-towjob
+    src: https://github.com/MilkshakeCollective/qb-towjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-streetraces
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-streetraces
+    src: https://github.com/MilkshakeCollective/qb-streetraces
 
   - action: download_github
     dest: ./resources/[qb]/qb-storerobbery
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-storerobbery
+    src: https://github.com/MilkshakeCollective/qb-storerobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-spawn
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-spawn
+    src: https://github.com/MilkshakeCollective/qb-spawn
 
   - action: download_github
     dest: ./resources/[qb]/qb-smallresources
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-smallresources
+    src: https://github.com/MilkshakeCollective/qb-smallresources
 
   - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-recyclejob
+    src: https://github.com/MilkshakeCollective/qb-recyclejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-crafting
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-crafting
+    src: https://github.com/MilkshakeCollective/qb-crafting
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -306,52 +306,52 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-diving
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-diving
+    src: https://github.com/MilkshakeCollective/qb-diving
 
   - action: download_github
     dest: ./resources/[qb]/qb-cityhall
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-cityhall
+    src: https://github.com/MilkshakeCollective/qb-cityhall
 
   - action: download_github
     dest: ./resources/[qb]/qb-truckrobbery
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-truckrobbery
+    src: https://github.com/MilkshakeCollective/qb-truckrobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-pawnshop
+    src: https://github.com/MilkshakeCollective/qb-pawnshop
 
   - action: download_github
     dest: ./resources/[qb]/qb-minigames
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-minigames
+    src: https://github.com/MilkshakeCollective/qb-minigames
 
   - action: download_github
     dest: ./resources/[qb]/qb-taxijob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-taxijob
+    src: https://github.com/MilkshakeCollective/qb-taxijob
 
   - action: download_github
     dest: ./resources/[qb]/qb-busjob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-busjob
+    src: https://github.com/MilkshakeCollective/qb-busjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-newsjob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-newsjob
+    src: https://github.com/MilkshakeCollective/qb-newsjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-fuel
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-fuel
+    src: https://github.com/MilkshakeCollective/qb-fuel
 
   - action: download_github
     dest: ./resources/[qb]/qb-jewelery
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-jewelery
+    src: https://github.com/MilkshakeCollective/qb-jewelery
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -359,52 +359,52 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-bankrobbery
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-bankrobbery
+    src: https://github.com/MilkshakeCollective/qb-bankrobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-banking
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-banking
+    src: https://github.com/MilkshakeCollective/qb-banking
 
   - action: download_github
     dest: ./resources/[qb]/qb-clothing
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-clothing
+    src: https://github.com/MilkshakeCollective/qb-clothing
 
   - action: download_github
     dest: ./resources/[qb]/qb-hotdogjob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-hotdogjob
+    src: https://github.com/MilkshakeCollective/qb-hotdogjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-doorlock
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-doorlock
+    src: https://github.com/MilkshakeCollective/qb-doorlock
 
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-garbagejob
+    src: https://github.com/MilkshakeCollective/qb-garbagejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-drugs
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-drugs
+    src: https://github.com/MilkshakeCollective/qb-drugs
 
   - action: download_github
     dest: ./resources/[qb]/qb-shops
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-shops
+    src: https://github.com/MilkshakeCollective/qb-shops
 
   - action: download_github
     dest: ./resources/[qb]/qb-interior
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-interior
+    src: https://github.com/MilkshakeCollective/qb-interior
 
   - action: download_github
     dest: ./resources/[qb]/qb-menu
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-menu
+    src: https://github.com/MilkshakeCollective/qb-menu
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -412,12 +412,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-input
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-input
+    src: https://github.com/MilkshakeCollective/qb-input
 
   - action: download_github
     dest: ./resources/[qb]/qb-loading
     ref: main
-    src: https://github.com/MilkshakeLabs-QBCore/qb-loading
+    src: https://github.com/MilkshakeCollective/qb-loading
 
   # Clean up
   - action: remove_path
